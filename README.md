@@ -6,7 +6,7 @@
 
 Fork it and change `db.json` values or create a repo with a `db.json` file.
 
-EXEMPLE fetch all db :
+EXEMPLE #1 fetch all db :
 fetch('https://my-json-server.typicode.com/SamuelPratte/demo/db')
   .then((response) => {
     return response.json();
@@ -14,3 +14,9 @@ fetch('https://my-json-server.typicode.com/SamuelPratte/demo/db')
   .then((data) => {
     console.log(data);
   });
+
+
+EXEMPLE #2 fetch second student :
+fetch('https://my-json-server.typicode.com/SamuelPratte/demo/students/2')
+  .then(response => response.json())
+  .then(json => console.log(json))
