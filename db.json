@@ -1,17 +1,17 @@
 {
   "activities": [
-    { "uid": 1, "permission": 3, "label": "Visite du musée Pierre Boucher", "imageURL": "./assets/whatever", "type": "externe", "date": "14 août", "hour": "9h", "capacity": 30, "description": "Venez découvrir des personnages d'époque. Un guide vous fera la visite pour ne rien manquer.", "studentsCP":  []},
-    { "uid": 1, "permission": 0, "label": "Badminton pour débutant", "imageURL": "./assets/whatever", "type": "interne", "date": "25 juin", "hour": "13h", "capacity": 20, "description": "Format simple ou double mixte. Les raquettes sont fournies.", "studentsCP":  []},
-    { "uid": 1, "permission": 2, "label": "Soirée jeux de société", "imageURL": "./assets/whatever", "type": "interne", "date": "21 juillet", "hour": "16h", "capacity": 30, "description": "Jeux de plateau classiques de 2 à 6 joueurs.", "students":  []},
-    { "uid": 1, "permission": 1, "label": "Soirée de quilles", "imageURL": "./assets/whatever", "type": "externe", "date": "14 mai", "hour": "19h", "capacity": 20, "description": "Petites boules.", "students":  []}
+    { "id": 1, "permission": 3, "label": "Visite du musée Pierre Boucher", "imageURL": "./assets/whatever", "type": "externe", "date": "14 août", "hour": "9h", "capacity": 30, "description": "Venez découvrir des personnages d'époque. Un guide vous fera la visite pour ne rien manquer.", "studentsCP":  []},
+    { "id": 1, "permission": 0, "label": "Badminton pour débutant", "imageURL": "./assets/whatever", "type": "interne", "date": "25 juin", "hour": "13h", "capacity": 20, "description": "Format simple ou double mixte. Les raquettes sont fournies.", "studentsCP":  []},
+    { "id": 1, "permission": 2, "label": "Soirée jeux de société", "imageURL": "./assets/whatever", "type": "interne", "date": "21 juillet", "hour": "16h", "capacity": 30, "description": "Jeux de plateau classiques de 2 à 6 joueurs.", "students":  []},
+    { "id": 1, "permission": 1, "label": "Soirée de quilles", "imageURL": "./assets/whatever", "type": "externe", "date": "14 mai", "hour": "19h", "capacity": 20, "description": "Petites boules.", "students":  []}
   ],
   "students": [
-    { "uid": 1, "permission": 1, "firstName": "Jean", "lastName": "Talon", "codePermanent": "TALJ11111111", "email": "jean.talon@uqtr.ca", "passWord": "jt1", "activitiesUID" : []},
-    { "uid": 2, "permission": 2, "firstName": "Carmen", "lastName": "Talon", "codePermanent": "CAMC22222222", "email": "carmen.campagne@uqtr.ca", "passWord": "cc2", "activitiesUID" : []},
-    { "uid": 3, "permission": 0, "firstName": "Michel", "lastName": "Desbiens", "codePermanent": "DESM33333333", "email": "michel.desbiens@uqtr.ca", "passWord": "md3", "activitiesUID" : []},
-    { "uid": 4, "permission": 3, "firstName": "Nicol", "lastName": "Stevens", "codePermanent": "STEN44444444", "email": "nicol.stevens@uqtr.ca", "passWord": "ns4", "activitiesUID" : []}
+    { "id": 1, "permission": 1, "firstName": "Jean", "lastName": "Talon", "codePermanent": "TALJ11111111", "email": "jean.talon@uqtr.ca", "passWord": "jt1", "activitiesUID" : []},
+    { "id": 2, "permission": 2, "firstName": "Carmen", "lastName": "Talon", "codePermanent": "CAMC22222222", "email": "carmen.campagne@uqtr.ca", "passWord": "cc2", "activitiesUID" : []},
+    { "id": 3, "permission": 0, "firstName": "Michel", "lastName": "Desbiens", "codePermanent": "DESM33333333", "email": "michel.desbiens@uqtr.ca", "passWord": "md3", "activitiesUID" : []},
+    { "id": 4, "permission": 3, "firstName": "Nicol", "lastName": "Stevens", "codePermanent": "STEN44444444", "email": "nicol.stevens@uqtr.ca", "passWord": "ns4", "activitiesUID" : []}
   ],
   "admins": [
-    { "uid": 1, "email": "admin.eif@uqtr.ca", "passWord": "admin1" }
+    { "id": 1, "email": "admin.eif@uqtr.ca", "passWord": "admin1" }
   ]
 }
